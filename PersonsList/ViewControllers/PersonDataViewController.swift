@@ -16,7 +16,7 @@ class PersonDataViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.title = person.fullName
+        title = person.fullName
         emailLabel.text = person.email
         phoneLabel.text = person.phone
     }

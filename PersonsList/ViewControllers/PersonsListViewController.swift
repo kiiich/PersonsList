@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class PersonsListViewController: UITableViewController {
 
     let persons = DataManager.getPersons()
     
@@ -40,6 +40,5 @@ class TableViewController: UITableViewController {
         personDataVC.person = persons[indexPath.row]
         
     }
-    
 
 }

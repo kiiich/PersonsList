@@ -17,6 +17,7 @@
 		01F0422326E8FB160076FD57 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0422226E8FB160076FD57 /* DataManager.swift */; };
 		01F0422526E9080A0076FD57 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0422426E9080A0076FD57 /* PersonsListViewController.swift */; };
 		01F0422E26E92C2F0076FD57 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0422D26E92C2F0076FD57 /* ContactsViewController.swift */; };
+		01F0423026E92C9B0076FD57 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0422F26E92C9B0076FD57 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		01F0422226E8FB160076FD57 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		01F0422426E9080A0076FD57 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		01F0422D26E92C2F0076FD57 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		01F0422F26E92C9B0076FD57 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		01F0422626E916200076FD57 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				01F0422F26E92C9B0076FD57 /* TabBarViewController.swift */,
 				01F0420D26E8F98C0076FD57 /* PersonDataViewController.swift */,
 				01F0422426E9080A0076FD57 /* PersonsListViewController.swift */,
 				01F0422D26E92C2F0076FD57 /* ContactsViewController.swift */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F0423026E92C9B0076FD57 /* TabBarViewController.swift in Sources */,
 				01F0420E26E8F98C0076FD57 /* PersonDataViewController.swift in Sources */,
 				01F0422E26E92C2F0076FD57 /* ContactsViewController.swift in Sources */,
 				01F0422526E9080A0076FD57 /* PersonsListViewController.swift in Sources */,
