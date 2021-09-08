@@ -30,7 +30,9 @@ class DataManager {
             "cat@gmail.com",
             "dog@gmail.com",
             "fish@gmail.com",
-            "ox@gmail.com"
+            "ox@gmail.com",
+            "mouse@gmail.com"
+            
         ]
         
         var phones = [
