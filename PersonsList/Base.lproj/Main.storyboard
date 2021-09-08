@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,6 +24,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="dJ0-PP-blY" kind="show" id="Ixe-ru-JQQ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -35,6 +39,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WuZ-6h-BgG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="771.01449275362324" y="123.88392857142857"/>
+        </scene>
+        <!--John Dow-->
+        <scene sceneID="EGP-6f-cQg">
+            <objects>
+                <viewController id="dJ0-PP-blY" customClass="PersonDataViewController" customModule="PersonsList" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8T5-yu-J8H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8RX-dv-gLC">
+                                <rect key="frame" x="16" y="160" width="382" height="61"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veN-0w-GPy">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Uk-Qo-kYD">
+                                        <rect key="frame" x="0.0" y="40.5" width="382" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vx7-p0-blH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8RX-dv-gLC" firstAttribute="leading" secondItem="Vx7-p0-blH" secondAttribute="leading" constant="16" id="KKs-bg-6ja"/>
+                            <constraint firstItem="Vx7-p0-blH" firstAttribute="trailing" secondItem="8RX-dv-gLC" secondAttribute="trailing" constant="16" id="aBd-fK-dfz"/>
+                            <constraint firstItem="8RX-dv-gLC" firstAttribute="top" secondItem="Vx7-p0-blH" secondAttribute="top" constant="20" id="gif-Xj-T69"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="John Dow" id="NHT-gI-tZ6"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="veN-0w-GPy" id="Nqq-xW-9Id"/>
+                        <outlet property="phoneLabel" destination="8Uk-Qo-kYD" id="X32-WP-UAK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DKu-Ol-BqK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1551" y="124"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vfP-gz-Wuh">
